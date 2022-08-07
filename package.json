@@ -1,0 +1,24 @@
+{
+  "name": "clean-mongo-cloudinary",
+  "version": "1.0.0",
+  "description": "Express backend with mongoose and cloudinary using clean architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricEchemane/Clean-mongo-cloudinary.git"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "cloudinary"
+  ],
+  "author": "Eric Echemane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricEchemane/Clean-mongo-cloudinary/issues"
+  },
+  "homepage": "https://github.com/EricEchemane/Clean-mongo-cloudinary#readme"
+}
