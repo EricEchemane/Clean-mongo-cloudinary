@@ -28,7 +28,7 @@ export default {
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: [
     "\\\\node_modules\\\\",
-    "src/single_tons/environment.ts"
+    "src/utils/environment.ts"
   ],
 
   // Indicates which provider should be used to instrument code for coverage
