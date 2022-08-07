@@ -14,6 +14,18 @@
             "file_upload/*": [
                 "file_upload/*"
             ],
+            "socket/*": [
+                "socket/*"
+            ],
+            "@api/*": [
+                "__clean__/@api/*"
+            ],
+            "@entities/*": [
+                "__clean__/@entities/*"
+            ],
+            "@usecases/*": [
+                "__clean__/@usecases/*"
+            ],
         }
     },
     "include": [
