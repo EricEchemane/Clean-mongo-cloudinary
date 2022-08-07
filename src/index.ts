@@ -3,8 +3,8 @@ import { Server as SocketServer } from 'socket.io';
 import cors from 'cors';
 import http from 'http';
 import cookieParser from 'cookie-parser';
-import environment from 'single_tons/environment';
-import makeSession from 'single_tons/make-session';
+import environment from 'utils/environment';
+import makeSession from 'utils/make-session';
 import { socketConnectionHandler } from './socket';
 
 // exported for testing
