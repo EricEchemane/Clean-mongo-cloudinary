@@ -5,8 +5,6 @@ import Token from './jwt';
 import { RequestError } from './exceptions';
 import { isAllNumeric, isValidEmail, lengthOf } from './validators';
 
-jest.mock('./environment');
-
 describe('Single tons modules', () => {
 
     describe('Environment', () => {

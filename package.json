@@ -18,7 +18,7 @@
     "start": "node .",
     "build": "tsc && resolve-tspaths",
     "bs": "tsc && resolve-tspaths && node .",
-    "test": "jest --setupFiles dotenv/config",
+    "test": "jest",
     "seed": "tsc && resolve-tspaths && node dist/drivers/db/__seed.js",
     "gen": "node -r tsconfig-paths/register -r ts-node/register src/db/__generator__.ts"
   },
