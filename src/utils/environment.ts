@@ -10,6 +10,8 @@ class Environment {
     API_KEY: string;
     API_SECRET: string;
 
+    MONGODB_URI: string;
+
     constructor() {
         const env = process.env.NODE_ENV || "development";
         this.isDevMode = env === "development";
@@ -18,6 +20,7 @@ class Environment {
         this.CLOUD_NAME = process.env.CLOUD_NAME;
         this.API_KEY = process.env.API_KEY;
         this.API_SECRET = process.env.API_SECRET;
+        this.MONGODB_URI = process.env.MONGODB_URI;
     }
 }
 
