@@ -1,6 +1,6 @@
 {
   "name": "clean-mongo-cloudinary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express backend with mongoose and cloudinary using clean architecture",
   "main": "dist/index.js",
   "nodemonConfig": {
