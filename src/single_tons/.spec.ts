@@ -15,6 +15,9 @@ describe('Single tons modules', () => {
             expect(environment).toHaveProperty('port');
             expect(environment).toHaveProperty('isDevMode');
             expect(environment).toHaveProperty('secret');
+            expect(environment).toHaveProperty('API_SECRET');
+            expect(environment).toHaveProperty('API_KEY');
+            expect(environment).toHaveProperty('CLOUD_NAME');
         });
     });
 
