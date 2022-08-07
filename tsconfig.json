@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "baseUrl": "src",
+        "paths": {
+            "single_tons/*": [
+                "single_tons/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        // uncomment the lines below when deploying
+        // "**/**/*.spec.ts",
+        // "**/**/*.spec.ts",
+    ]
+}
